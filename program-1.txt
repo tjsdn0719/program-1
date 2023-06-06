@@ -1,46 +1,46 @@
-nclude <stdio.h>
+#include <stdio.h>
 int main(){
 	char a[21],b[21],c[21];
-		int A,B,C,i,h[3];
-			float sum=100;
-				scanf("%s\n%s\n%s",&a,&b,&c);
-					for(i=1; i<=3; i++)
-							scanf("%d",&h[i]); 
-								scanf("%d\n%d\n%d",&A,&B,&C);
-									printf("\n\n\n\n");
-										printf("%s:",a);
-											if(A==1)
-												{
-														printf("달성");
-																sum=sum+0;
-																	}
-																		else
-																			{
-																					printf("실패"); 
-																							sum=sum-33.3;
-																								}
-																									printf("\n%s:",b);
-																										if(B==1)
-																											{
-																													printf("달성");
-																															sum=sum+0;
-																																}
-																																	else
-																																		{
-																																				printf("실패"); 
-																																						sum=sum-33.3;
-																																							}
-																																								printf("\n%s:",c);
-																																									if(C==1)
-																																										{
-																																												printf("달성");
-																																														sum=sum+0;
-																																															}
-																																																else
-																																																	{
-																																																			printf("실패"); 
-																																																					sum=sum-33.3;
-																																																						}
-																																																							printf("\n당신의 일주일 계획 실천률은 "); 
-																																																								printf("\n  약 %.f%%입니다 ",sum);
-																																																								}
+	int A,B,C,i,h[3];
+	float sum=100;
+	scanf("%s\n%s\n%s",&a,&b,&c);
+	for(i=1; i<=3; i++)
+		scanf("%d",&h[i]); 
+	scanf("%d\n%d\n%d",&A,&B,&C);
+	printf("\n\n\n\n");
+	printf("%s:",a);
+	if(A==1)
+	{
+		printf("달성");
+		sum=sum+0;
+	}
+	else
+	{
+		printf("실패"); 
+		sum=sum-33.3;
+	}
+	printf("\n%s:",b);
+	if(B==1)
+	{
+		printf("달성");
+		sum=sum+0;
+	}
+	else
+	{
+		printf("실패"); 
+		sum=sum-33.3;
+	}
+	printf("\n%s:",c);
+	if(C==1)
+	{
+		printf("달성");
+		sum=sum+0;
+	}
+	else
+	{
+		printf("실패"); 
+		sum=sum-33.3;
+	}
+	printf("\n당신의 일주일 계획 실천률은 "); 
+	printf("\n  약 %.f%%입니다 ",sum);
+}
